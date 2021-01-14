@@ -6,6 +6,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -18,12 +19,24 @@ using Windows.UI.Xaml.Navigation;
 
 namespace FChart.UWP.Charts.Line_Chart
 {
+    /// <summary>
+    /// Line Charts
+    /// </summary>
     public sealed partial class LineChart : UserControl
     {
         public LineChart()
         {
             this.InitializeComponent();
+            CreateChart();
         }
+
+        #region __Props__
+
+
+        /// <summary>
+        /// Set Forgrand Color For Grid
+        /// </summary>
+        public Brush ForgrandColor { get; set; }
 
         /// <summary>
         /// X 
@@ -48,6 +61,23 @@ namespace FChart.UWP.Charts.Line_Chart
         /// <summary>
         /// Array Chart
         /// </summary>
-        public int[,] MyProperty { get; set; }
+        public int[,] ChartArray { get; set; }
+
+        /// <summary>
+        /// X Spaces Columns
+        /// </summary>
+        public double SpaceX { get; set; }
+
+        /// <summary>
+        /// Y Spaces Row
+        /// </summary>
+        public double SpaceY { get; set; }
+
+        #endregion
+
+        private void CreateChart()
+        {
+            
+        }
     }
 }
