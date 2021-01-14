@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FChart.UWP.Charts.BaseLineCharts;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -23,5 +24,30 @@ namespace FChart.UWP.Charts.Line_Chart
         {
             this.InitializeComponent();
         }
+
+        /// <summary>
+        /// X 
+        /// </summary>
+        public int LineX { get; set; }
+
+        /// <summary>
+        /// -X
+        /// </summary>
+        public int Line_X { get; set; }
+
+        /// <summary>
+        /// Y
+        /// </summary>
+        public int LineY { get; set; }
+
+        /// <summary>
+        /// -Y
+        /// </summary>
+        public int Line_Y { get; set; }
+
+        /// <summary>
+        /// Array Chart
+        /// </summary>
+        public int[,] MyProperty { get; set; }
     }
 }
