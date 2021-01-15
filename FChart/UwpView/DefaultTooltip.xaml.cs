@@ -1,6 +1,6 @@
 ﻿//The MIT License(MIT)
 
-//Copyright(c) 2016 Alberto Rodriguez & LiveCharts Contributors
+//Copyright(c) 2016 Alberto Rodriguez & FChart Contributors
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -28,9 +28,9 @@ using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Media;
-using LiveCharts.Uwp.Components;
+using FChart.Uwp.Components;
 
-namespace LiveCharts.Uwp
+namespace FChart.Uwp
 {
     /// <summary>
     /// The Default Tooltip control, by default any chart that requires a tooltip will create a new instance of this class.
@@ -73,7 +73,7 @@ namespace LiveCharts.Uwp
             "SelectionMode", typeof (TooltipSelectionMode), typeof (DefaultTooltip),
             new PropertyMetadata(TooltipSelectionMode.Auto));
         /// <summary>
-        /// Gets or sets the tooltip selection mode, default is null, if this property is null LiveCharts will decide the selection mode based on the series (that fired the tooltip) preferred section mode
+        /// Gets or sets the tooltip selection mode, default is null, if this property is null FChart will decide the selection mode based on the series (that fired the tooltip) preferred section mode
         /// </summary>
         public TooltipSelectionMode SelectionMode
         {

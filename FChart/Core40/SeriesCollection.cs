@@ -1,6 +1,6 @@
 ﻿//The MIT License(MIT)
 
-//Copyright(c) 2016 Alberto Rodriguez & LiveCharts Contributors
+//Copyright(c) 2016 Alberto Rodriguez & FChart Contributors
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -21,11 +21,11 @@
 //SOFTWARE.
 
 using System.Collections.Generic;
-using LiveCharts.Charts;
-using LiveCharts.Definitions.Series;
-using LiveCharts.Helpers;
+using FChart.Charts;
+using FChart.Definitions.Series;
+using FChart.Helpers;
 
-namespace LiveCharts
+namespace FChart
 {
     /// <summary>
     /// Stores a collection of series to plot, this collection notifies the changes every time you add/remove any series.
@@ -66,7 +66,7 @@ namespace LiveCharts
         /// </summary>
         public ChartCore Chart { get; internal set; }
         /// <summary>
-        /// Gets or sets then mapper in the collection, this mapper will be used in any series inside the collection, if null then LiveCharts will try to get the value from the global configuration.
+        /// Gets or sets then mapper in the collection, this mapper will be used in any series inside the collection, if null then FChart will try to get the value from the global configuration.
         /// </summary>
         public object Configuration { get; set; }
 

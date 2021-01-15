@@ -5,10 +5,10 @@
     xmlns:local="using:UWP.Views"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:points="using:LiveCharts.Uwp.Points"
+    xmlns:points="using:FChart.Uwp.Points"
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock Text="LiveCharts Samples" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" FontWeight="Bold"/>
+        <TextBlock Text="FChart Samples" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" FontWeight="Bold"/>
     </Grid>
 </Page>

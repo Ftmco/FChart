@@ -1,6 +1,6 @@
 ﻿//The MIT License(MIT)
 
-//Copyright(c) 2016 Alberto Rodriguez & LiveCharts Contributors
+//Copyright(c) 2016 Alberto Rodriguez & FChart Contributors
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -21,17 +21,17 @@
 //SOFTWARE.
 
 using System.Linq;
-using LiveCharts.Definitions.Charts;
-using LiveCharts.Definitions.Points;
-using LiveCharts.Definitions.Series;
+using FChart.Definitions.Charts;
+using FChart.Definitions.Points;
+using FChart.Definitions.Series;
 
-namespace LiveCharts.SeriesAlgorithms
+namespace FChart.SeriesAlgorithms
 {
     /// <summary>
     /// 
     /// </summary>
-    /// <seealso cref="LiveCharts.SeriesAlgorithm" />
-    /// <seealso cref="LiveCharts.Definitions.Series.IPieSeries" />
+    /// <seealso cref="FChart.SeriesAlgorithm" />
+    /// <seealso cref="FChart.Definitions.Series.IPieSeries" />
     public class PieAlgorithm : SeriesAlgorithm, IPieSeries
     {
         /// <summary>

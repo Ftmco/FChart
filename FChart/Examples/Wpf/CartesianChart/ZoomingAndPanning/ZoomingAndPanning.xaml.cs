@@ -4,9 +4,9 @@ using System.Globalization;
 using System.Windows;
 using System.Windows.Data;
 using System.Windows.Media;
-using LiveCharts;
-using LiveCharts.Defaults;
-using LiveCharts.Wpf;
+using FChart;
+using FChart.Defaults;
+using FChart.Wpf;
 
 namespace Wpf.CartesianChart.ZoomingAndPanning
 {

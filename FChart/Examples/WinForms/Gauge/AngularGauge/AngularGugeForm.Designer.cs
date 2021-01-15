@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.angularGauge1 = new LiveCharts.WinForms.AngularGauge();
+            this.angularGauge1 = new FChart.WinForms.AngularGauge();
             this.SuspendLayout();
             // 
             // angularGauge1
@@ -55,6 +55,6 @@
 
         #endregion
 
-        private LiveCharts.WinForms.AngularGauge angularGauge1;
+        private FChart.WinForms.AngularGauge angularGauge1;
     }
 }

@@ -1,6 +1,6 @@
 ﻿//The MIT License(MIT)
 
-//Copyright(c) 2016 Alberto Rodriguez & LiveCharts Contributors
+//Copyright(c) 2016 Alberto Rodriguez & FChart Contributors
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -22,14 +22,14 @@
 
 using System;
 using System.Collections.Generic;
-using LiveCharts.Configurations;
-using LiveCharts.Defaults;
-using LiveCharts.Helpers;
+using FChart.Configurations;
+using FChart.Defaults;
+using FChart.Helpers;
 
-namespace LiveCharts
+namespace FChart
 {
     /// <summary>
-    /// Global LiveCharts configuration
+    /// Global FChart configuration
     /// </summary>
     public class Charting
     {
@@ -89,7 +89,7 @@ namespace LiveCharts
             //that is just by definition of a CandleStick series
             //so I created a OhclPoint class, and used the Financial mapper:
             //and again the OhclPoint class only contains those 4 properties
-            //we just mapped them correctly and LiveCharts will know how to handle this class.
+            //we just mapped them correctly and FChart will know how to handle this class.
 
             //the DateTime for now its tricky....
             //I will explain better later if i do not find a better solution...
@@ -215,7 +215,7 @@ namespace LiveCharts
             ConfigWrapper wrapper;
 
             if (!Configurations.TryGetValue(typeof(T), out wrapper))
-                throw new LiveChartsException("LiveCharts does not know how to plot " + typeof(T).Name + ", " +
+                throw new LiveChartsException("FChart does not know how to plot " + typeof(T).Name + ", " +
                                               "you can either, use an already configured type " +
                                               "or configure this type you are trying to use, " +
                                               "For more info see " +

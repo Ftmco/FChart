@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Linq;
 using System.Windows;
-using LiveCharts;
-using LiveCharts.Defaults;
-using LiveCharts.Helpers;
-using LiveCharts.Wpf;
+using FChart;
+using FChart.Defaults;
+using FChart.Helpers;
+using FChart.Wpf;
 
 namespace Wpf.CartesianChart.UIElements
 {

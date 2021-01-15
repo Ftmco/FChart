@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Windows.UI.Core;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using LiveCharts;
-using LiveCharts.Defaults;
-using LiveCharts.Uwp;
+using FChart;
+using FChart.Defaults;
+using FChart.Uwp;
 
 namespace UWP.CartesianChart.MaterialCards
 {

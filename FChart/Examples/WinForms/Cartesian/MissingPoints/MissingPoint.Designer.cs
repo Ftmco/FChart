@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.cartesianChart1 = new LiveCharts.WinForms.CartesianChart();
+            this.cartesianChart1 = new FChart.WinForms.CartesianChart();
             this.SuspendLayout();
             // 
             // cartesianChart1
@@ -55,6 +55,6 @@
 
         #endregion
 
-        private LiveCharts.WinForms.CartesianChart cartesianChart1;
+        private FChart.WinForms.CartesianChart cartesianChart1;
     }
 }

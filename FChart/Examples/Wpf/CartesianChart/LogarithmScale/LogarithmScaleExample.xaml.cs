@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Windows.Controls;
-using LiveCharts;
-using LiveCharts.Configurations;
-using LiveCharts.Defaults;
-using LiveCharts.Wpf;
+using FChart;
+using FChart.Configurations;
+using FChart.Defaults;
+using FChart.Wpf;
 
 namespace Wpf.CartesianChart.LogarithmScale
 {

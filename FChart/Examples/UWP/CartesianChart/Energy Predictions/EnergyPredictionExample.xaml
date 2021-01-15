@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-      xmlns:lvc="using:LiveCharts.Uwp"
+      xmlns:lvc="using:FChart.Uwp"
              xmlns:interop="using:Windows.UI.Xaml.Interop"
              xmlns:energyPredictions="using:UWP.CartesianChart.Energy_Predictions"
 

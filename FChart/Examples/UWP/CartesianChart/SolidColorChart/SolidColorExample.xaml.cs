@@ -1,5 +1,5 @@
 ﻿using Windows.UI.Xaml;
-using LiveCharts;
+using FChart;
 
 namespace UWP.CartesianChart.SolidColorChart
 {

@@ -1,7 +1,7 @@
 ﻿using System;
 using Windows.UI.Xaml.Media;
 
-namespace LiveCharts.Uwp.Components
+namespace FChart.Uwp.Components
 {
     internal static class GeometryHelper
     {

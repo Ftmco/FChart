@@ -20,15 +20,15 @@
 
 using System.Linq;
 using System.Windows;
-using LiveCharts.Charts;
-using LiveCharts.Definitions.Charts;
+using FChart.Charts;
+using FChart.Definitions.Charts;
 
-namespace LiveCharts.Wpf
+namespace FChart.Wpf
 {
     /// <summary>
     /// An Logarithmic Axis of a chart
     /// </summary>
-    /// <seealso cref="LiveCharts.Wpf.Axis" />
+    /// <seealso cref="FChart.Wpf.Axis" />
     public class LogarithmicAxis : Axis, ILogarithmicAxisView
     {
         /// <summary>

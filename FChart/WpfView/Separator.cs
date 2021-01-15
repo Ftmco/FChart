@@ -1,6 +1,6 @@
 ﻿//The MIT License(MIT)
 
-//Copyright(c) 2016 Alberto Rodriguez & LiveCharts Contributors
+//Copyright(c) 2016 Alberto Rodriguez & FChart Contributors
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -22,10 +22,10 @@
 
 using System.Windows;
 using System.Windows.Media;
-using LiveCharts.Charts;
-using LiveCharts.Definitions.Charts;
+using FChart.Charts;
+using FChart.Definitions.Charts;
 
-namespace LiveCharts.Wpf
+namespace FChart.Wpf
 {
     /// <summary>
     /// Defines an Axis.Separator, this class customizes the separator of an axis.

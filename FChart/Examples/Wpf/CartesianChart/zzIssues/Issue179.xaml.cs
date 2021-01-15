@@ -3,9 +3,9 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using LiveCharts;
-using LiveCharts.Defaults;
-using LiveCharts.Wpf;
+using FChart;
+using FChart.Defaults;
+using FChart.Wpf;
 
 namespace Wpf.CartesianChart.zzIssues
 {

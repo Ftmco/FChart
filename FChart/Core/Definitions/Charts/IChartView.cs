@@ -1,6 +1,6 @@
 ﻿//The MIT License(MIT)
 
-//Copyright(c) 2016 Alberto Rodriguez & LiveCharts Contributors
+//Copyright(c) 2016 Alberto Rodriguez & FChart Contributors
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -22,12 +22,12 @@
 
 using System;
 using System.Collections.Generic;
-using LiveCharts.Charts;
-using LiveCharts.Definitions.Series;
-using LiveCharts.Dtos;
-using LiveCharts.Events;
+using FChart.Charts;
+using FChart.Definitions.Series;
+using FChart.Dtos;
+using FChart.Events;
 
-namespace LiveCharts.Definitions.Charts
+namespace FChart.Definitions.Charts
 {
     /// <summary>
     /// 

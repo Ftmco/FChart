@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Threading;
 using System.Threading.Tasks;
-using LiveCharts;
+using FChart;
 
 namespace Wpf.CartesianChart.ThreadSafe
 {

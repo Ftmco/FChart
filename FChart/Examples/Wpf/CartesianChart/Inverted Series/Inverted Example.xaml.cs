@@ -1,5 +1,5 @@
 ﻿using System.Windows.Controls;
-using LiveCharts;
+using FChart;
 
 namespace Wpf.CartesianChart.Inverted_Series
 {

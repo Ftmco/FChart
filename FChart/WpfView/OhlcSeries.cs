@@ -1,6 +1,6 @@
 ﻿//The MIT License(MIT)
 
-//Copyright(c) 2016 Alberto Rodriguez & LiveCharts Contributors
+//Copyright(c) 2016 Alberto Rodriguez & FChart Contributors
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -25,13 +25,13 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Shapes;
-using LiveCharts.Definitions.Points;
-using LiveCharts.Definitions.Series;
-using LiveCharts.SeriesAlgorithms;
-using LiveCharts.Wpf.Charts.Base;
-using LiveCharts.Wpf.Points;
+using FChart.Definitions.Points;
+using FChart.Definitions.Series;
+using FChart.SeriesAlgorithms;
+using FChart.Wpf.Charts.Base;
+using FChart.Wpf.Points;
 
-namespace LiveCharts.Wpf
+namespace FChart.Wpf
 {
     /// <summary>
     /// The OHCL series defines a financial series, add this series to a cartesian chart

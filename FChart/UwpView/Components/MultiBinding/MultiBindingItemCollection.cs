@@ -2,7 +2,7 @@
 using System.Linq;
 using Windows.UI.Xaml;
 
-namespace LiveCharts.Uwp.Components.MultiBinding
+namespace FChart.Uwp.Components.MultiBinding
 {
     /// <summary>
     /// Represents a collection of <see cref="MultiBindingBehavior" />.

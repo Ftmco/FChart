@@ -1,6 +1,6 @@
 ﻿//The MIT License(MIT)
 
-//Copyright(c) 2016 Alberto Rodriguez & LiveCharts Contributors
+//Copyright(c) 2016 Alberto Rodriguez & FChart Contributors
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -31,10 +31,10 @@ using System.Windows.Shapes;
 using System.Linq;
 using System.Windows.Media.Animation;
 using System.Windows.Media.Effects;
-using LiveCharts.Helpers;
-using LiveCharts.Wpf.Points;
+using FChart.Helpers;
+using FChart.Wpf.Points;
 
-namespace LiveCharts.Wpf
+namespace FChart.Wpf
 {
     /// <summary>
     /// The gauge chart is useful to display progress or completion.

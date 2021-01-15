@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.cartesianChart1 = new LiveCharts.WinForms.CartesianChart();
+            this.cartesianChart1 = new FChart.WinForms.CartesianChart();
             this.SuspendLayout();
             // 
             // cartesianChart1
@@ -39,9 +39,9 @@
             this.cartesianChart1.Size = new System.Drawing.Size(382, 343);
             this.cartesianChart1.TabIndex = 0;
             this.cartesianChart1.Text = "cartesianChart1";
-            this.cartesianChart1.DataClick += new LiveCharts.Events.DataClickHandler(this.ChartOnDataClick);
-            this.cartesianChart1.DataHover += new LiveCharts.Events.DataHoverHandler(this.Chart_OnDataHover);
-            this.cartesianChart1.UpdaterTick += new LiveCharts.Events.UpdaterTickHandler(this.ChartOnUpdaterTick);
+            this.cartesianChart1.DataClick += new FChart.Events.DataClickHandler(this.ChartOnDataClick);
+            this.cartesianChart1.DataHover += new FChart.Events.DataHoverHandler(this.Chart_OnDataHover);
+            this.cartesianChart1.UpdaterTick += new FChart.Events.UpdaterTickHandler(this.ChartOnUpdaterTick);
             // 
             // EventsExample
             // 
@@ -57,6 +57,6 @@
 
         #endregion
 
-        private LiveCharts.WinForms.CartesianChart cartesianChart1;
+        private FChart.WinForms.CartesianChart cartesianChart1;
     }
 }

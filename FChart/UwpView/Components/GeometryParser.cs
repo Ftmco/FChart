@@ -3,7 +3,7 @@ using System.Globalization;
 using Windows.Foundation;
 using Windows.UI.Xaml.Media;
 
-namespace LiveCharts.Uwp.Components
+namespace FChart.Uwp.Components
 {
     /// <summary>
     /// A String-To-PathGeometry Parser from https://stringtopathgeometry.codeplex.com/

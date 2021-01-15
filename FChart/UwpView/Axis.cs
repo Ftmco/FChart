@@ -30,13 +30,13 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Shapes;
-using LiveCharts.Charts;
-using LiveCharts.Definitions.Charts;
-using LiveCharts.Dtos;
-using LiveCharts.Events;
-using LiveCharts.Uwp.Components;
+using FChart.Charts;
+using FChart.Definitions.Charts;
+using FChart.Dtos;
+using FChart.Events;
+using FChart.Uwp.Components;
 
-namespace LiveCharts.Uwp
+namespace FChart.Uwp
 {
     /// <summary>
     /// An Axis of a chart

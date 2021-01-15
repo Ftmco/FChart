@@ -13,10 +13,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using LiveCharts;
-using LiveCharts.Defaults;
-using LiveCharts.Definitions.Charts;
-using LiveCharts.Wpf;
+using FChart;
+using FChart.Defaults;
+using FChart.Definitions.Charts;
+using FChart.Wpf;
 
 namespace Wpf.CartesianChart.WindowAxis
 {

@@ -1,6 +1,6 @@
 ﻿//The MIT License(MIT)
 
-//Copyright(c) 2016 Alberto Rodriguez & LiveCharts Contributors
+//Copyright(c) 2016 Alberto Rodriguez & FChart Contributors
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -27,15 +27,15 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Media;
-using LiveCharts.Defaults;
-using LiveCharts.Definitions.Points;
-using LiveCharts.Definitions.Series;
-using LiveCharts.Helpers;
-using LiveCharts.Wpf.Charts.Base;
-using LiveCharts.Wpf.Components;
-using LiveCharts.Wpf.Converters;
+using FChart.Defaults;
+using FChart.Definitions.Points;
+using FChart.Definitions.Series;
+using FChart.Helpers;
+using FChart.Wpf.Charts.Base;
+using FChart.Wpf.Components;
+using FChart.Wpf.Converters;
 
-namespace LiveCharts.Wpf
+namespace FChart.Wpf
 {
     /// <summary>
     /// Base WPF and WinForms series, this class is abstract
@@ -584,7 +584,7 @@ namespace LiveCharts.Wpf
         {
             var r = new Random();
 
-            var gvt = Type.GetType("LiveCharts.Geared.GearedValues`1, LiveCharts.Geared");
+            var gvt = Type.GetType("FChart.Geared.GearedValues`1, FChart.Geared");
             if (gvt != null) gvt = gvt.MakeGenericType(typeof(ObservableValue));
 
             var obj = gvt != null

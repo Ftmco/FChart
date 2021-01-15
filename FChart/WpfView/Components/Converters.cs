@@ -27,7 +27,7 @@ using System.Linq;
 using System.Windows.Data;
 using System.Windows.Media;
 
-namespace LiveCharts.Wpf.Components
+namespace FChart.Wpf.Components
 {
     internal class SerieConverter : IValueConverter
     {

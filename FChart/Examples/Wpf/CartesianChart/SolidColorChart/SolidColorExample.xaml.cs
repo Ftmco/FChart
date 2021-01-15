@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
-using LiveCharts;
+using FChart;
 
 namespace Wpf.CartesianChart.SolidColorChart
 {

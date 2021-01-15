@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Windows.Controls;
-using LiveCharts;
-using LiveCharts.Dtos;
+using FChart;
+using FChart.Dtos;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTests.MemoryLeaks
@@ -56,70 +56,70 @@ namespace UnitTests.MemoryLeaks
             //    "There are unnecessary elements in the current chart!");
         }
 
-        private static LiveCharts.Wpf.CartesianChart BuildATestDude()
+        private static FChart.Wpf.CartesianChart BuildATestDude()
         {
-            return new LiveCharts.Wpf.CartesianChart
+            return new FChart.Wpf.CartesianChart
             {
                 Series = new SeriesCollection
                 {
-                    new LiveCharts.Wpf.LineSeries
+                    new FChart.Wpf.LineSeries
                     {
                         Values = new ChartValues<double> {2, 4, 5, 2}
                     },
-                    new LiveCharts.Wpf.VerticalLineSeries
+                    new FChart.Wpf.VerticalLineSeries
                     {
                         Values = new ChartValues<double> {2, 4, 5, 2}
                     },
-                    new LiveCharts.Wpf.ColumnSeries
+                    new FChart.Wpf.ColumnSeries
                     {
                         Values = new ChartValues<double> {2, 4, 5, 2}
                     },
-                    new LiveCharts.Wpf.RowSeries
+                    new FChart.Wpf.RowSeries
                     {
                         Values = new ChartValues<double> {2, 4, 5, 2}
                     },
-                    new LiveCharts.Wpf.StackedAreaSeries
+                    new FChart.Wpf.StackedAreaSeries
                     {
                         Values = new ChartValues<double> {2, 4, 5, 2}
                     },
-                    new LiveCharts.Wpf.VerticalStackedAreaSeries
+                    new FChart.Wpf.VerticalStackedAreaSeries
                     {
                         Values = new ChartValues<double> {2, 4, 5, 2}
                     },
-                    new LiveCharts.Wpf.StackedRowSeries
+                    new FChart.Wpf.StackedRowSeries
                     {
                         Values = new ChartValues<double> {2, 4, 5, 2}
                     },
-                    new LiveCharts.Wpf.StackedRowSeries
+                    new FChart.Wpf.StackedRowSeries
                     {
                         Values = new ChartValues<double> {2, 4, 5, 2}
                     },
-                    new LiveCharts.Wpf.StackedColumnSeries
+                    new FChart.Wpf.StackedColumnSeries
                     {
                         Values = new ChartValues<double> {2, 4, 5, 2}
                     },
-                    new LiveCharts.Wpf.StackedRowSeries
+                    new FChart.Wpf.StackedRowSeries
                     {
                         Values = new ChartValues<double> {2, 4, 5, 2}
                     },
-                    new LiveCharts.Wpf.OhlcSeries()
+                    new FChart.Wpf.OhlcSeries()
                     {
                         Values = new ChartValues<double> {2, 4, 5, 2}
                     },
-                    new LiveCharts.Wpf.ScatterSeries
+                    new FChart.Wpf.ScatterSeries
                     {
                         Values = new ChartValues<double> {2, 4, 5, 2}
                     }
                 },
-                AxisX = new LiveCharts.Wpf.AxesCollection
+                AxisX = new FChart.Wpf.AxesCollection
                 {
-                    new LiveCharts.Wpf.Axis
+                    new FChart.Wpf.Axis
                     {
-                        Sections = new LiveCharts.Wpf.SectionsCollection
+                        Sections = new FChart.Wpf.SectionsCollection
                         {
-                            new LiveCharts.Wpf.AxisSection { Value = 10, Label = "Hello!"},
-                            new LiveCharts.Wpf.AxisSection { Value = 10},
-                            new LiveCharts.Wpf.AxisSection { Value = 10}
+                            new FChart.Wpf.AxisSection { Value = 10, Label = "Hello!"},
+                            new FChart.Wpf.AxisSection { Value = 10},
+                            new FChart.Wpf.AxisSection { Value = 10}
                         }
                     }
                 }

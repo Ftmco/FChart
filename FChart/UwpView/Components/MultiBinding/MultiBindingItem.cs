@@ -1,6 +1,6 @@
 ﻿using Windows.UI.Xaml;
 
-namespace LiveCharts.Uwp.Components.MultiBinding
+namespace FChart.Uwp.Components.MultiBinding
 {
     /// <summary>
     /// A multiple binding item.

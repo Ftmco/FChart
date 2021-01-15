@@ -29,14 +29,14 @@ using System.Windows.Data;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Shapes;
-using LiveCharts.Charts;
-using LiveCharts.Definitions.Charts;
-using LiveCharts.Dtos;
-using LiveCharts.Events;
-using LiveCharts.Wpf.Components;
-using LiveCharts.Wpf.Converters;
+using FChart.Charts;
+using FChart.Definitions.Charts;
+using FChart.Dtos;
+using FChart.Events;
+using FChart.Wpf.Components;
+using FChart.Wpf.Converters;
 
-namespace LiveCharts.Wpf
+namespace FChart.Wpf
 {
     /// <summary>
     /// An Axis of a chart

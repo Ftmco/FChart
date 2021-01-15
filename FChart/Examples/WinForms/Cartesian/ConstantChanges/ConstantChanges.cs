@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
-using LiveCharts;
-using LiveCharts.Configurations;
-using LiveCharts.Wpf;
+using FChart;
+using FChart.Configurations;
+using FChart.Wpf;
 
 namespace Winforms.Cartesian.ConstantChanges
 {
@@ -15,7 +15,7 @@ namespace Winforms.Cartesian.ConstantChanges
             //To handle live data easily, in this case we built a specialized type
             //the MeasureModel class, it only contains 2 properties
             //DateTime and Value
-            //We need to configure LiveCharts to handle MeasureModel class
+            //We need to configure FChart to handle MeasureModel class
             //The next code configures MEasureModel  globally, this means
             //that livecharts learns to plot MeasureModel and will use this config every time
             //a ChartValues instance uses this type.

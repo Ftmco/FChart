@@ -1,6 +1,6 @@
 //The MIT License(MIT)
 
-//Copyright(c) 2016 Alberto Rodriguez & LiveCharts Contributors
+//Copyright(c) 2016 Alberto Rodriguez & FChart Contributors
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -20,7 +20,7 @@
 //OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //SOFTWARE.
 
-namespace LiveCharts
+namespace FChart
 {
     /// <summary>
     /// Tooltip selection modes
@@ -28,7 +28,7 @@ namespace LiveCharts
     public enum TooltipSelectionMode
     {
         /// <summary>
-        /// LiveCharts will decide the selection mode based on the series (that fired the tooltip) preferred section mode
+        /// FChart will decide the selection mode based on the series (that fired the tooltip) preferred section mode
         /// </summary>
         Auto,
         /// <summary>

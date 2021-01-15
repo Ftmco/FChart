@@ -1,47 +1,19 @@
-﻿//The MIT License(MIT)
-
-//Copyright(c) 2016 Alberto Rodriguez & LiveCharts Contributors
-
-//Permission is hereby granted, free of charge, to any person obtaining a copy
-//of this software and associated documentation files (the "Software"), to deal
-//in the Software without restriction, including without limitation the rights
-//to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-//copies of the Software, and to permit persons to whom the Software is
-//furnished to do so, subject to the following conditions:
-
-//The above copyright notice and this permission notice shall be included in all
-//copies or substantial portions of the Software.
-
-//THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-//IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-//FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-//AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-//LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-//OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-//SOFTWARE.
-
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using Windows.Foundation;
-using Windows.UI;
-using Windows.UI.Xaml;
+﻿using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
-using LiveCharts.Charts;
-using LiveCharts.Defaults;
-using LiveCharts.Definitions.Charts;
-using LiveCharts.Definitions.Series;
-using LiveCharts.Dtos;
-using LiveCharts.Events;
-using LiveCharts.Helpers;
-using LiveCharts.Uwp.Components;
-using LiveCharts.Uwp.Points;
-using System.Windows.Input;
+using FChart.Charts;
+using FChart.Defaults;
+using FChart.Definitions.Charts;
+using FChart.Definitions.Series;
+using FChart.Dtos;
+using FChart.Events;
+using FChart.Helpers;
+using FChart.Uwp.Components;
+using FChart.Uwp.Points;
 using Windows.UI.Xaml.Controls.Primitives;
 
-namespace LiveCharts.Uwp.Charts.Base
+namespace FChart.Uwp.Charts.Base
 {
     /// <summary>
     /// Base chart class
@@ -1071,7 +1043,7 @@ namespace LiveCharts.Uwp.Charts.Base
         /// Loads the legend.
         /// </summary>
         /// <returns></returns>
-        /// <exception cref="LiveCharts.Helpers.LiveChartsException">The current legend is not valid, ensure it implements IChartLegend</exception>
+        /// <exception cref="FChart.Helpers.LiveChartsException">The current legend is not valid, ensure it implements IChartLegend</exception>
         public CoreSize LoadLegend()
         {
             if (ChartLegend == null || LegendLocation == LegendLocation.None)
@@ -1176,7 +1148,7 @@ namespace LiveCharts.Uwp.Charts.Base
 
             Func<IChartValues> getValuesForPies = () =>
             {
-                var gvt = Type.GetType("LiveCharts.Geared.GearedValues`1, LiveCharts.Geared");
+                var gvt = Type.GetType("FChart.Geared.GearedValues`1, FChart.Geared");
                 gvt = gvt?.MakeGenericType(typeof(ObservableValue));
 
                 var obj = gvt != null
@@ -1214,7 +1186,7 @@ namespace LiveCharts.Uwp.Charts.Base
             {
                 Func<IChartValues> getRandomValues = () =>
                 {
-                    var gvt = Type.GetType("LiveCharts.Geared.GearedValues`1, LiveCharts.Geared");
+                    var gvt = Type.GetType("FChart.Geared.GearedValues`1, FChart.Geared");
                     gvt = gvt?.MakeGenericType(typeof(ObservableValue));
 
                     var obj = gvt != null

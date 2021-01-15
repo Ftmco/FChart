@@ -1,9 +1,9 @@
 ﻿using System.Diagnostics;
 using Windows.Devices.Input;
 using Windows.UI.Xaml.Controls;
-using LiveCharts;
-using LiveCharts.Events;
-using LiveCharts.Uwp;
+using FChart;
+using FChart.Events;
+using FChart.Uwp;
 
 namespace UWP.CartesianChart.Events
 {

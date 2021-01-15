@@ -5,7 +5,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Shapes;
 
-namespace LiveCharts.Uwp.Points
+namespace FChart.Uwp.Points
 {
     //special thanks to Colin Eberhardt for the article.
     //http://www.codeproject.com/Articles/28098/A-WPF-Pie-Chart-with-Data-Binding-Support

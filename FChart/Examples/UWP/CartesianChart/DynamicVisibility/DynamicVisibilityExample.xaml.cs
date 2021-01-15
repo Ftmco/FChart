@@ -1,4 +1,4 @@
-﻿using LiveCharts;
+﻿using FChart;
 using System.ComponentModel;
 using Windows.UI.Xaml.Controls;
 

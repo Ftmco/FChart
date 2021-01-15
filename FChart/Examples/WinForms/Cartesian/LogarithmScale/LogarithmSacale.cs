@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Windows.Forms;
 using System.Windows.Media;
-using LiveCharts;
-using LiveCharts.Configurations;
-using LiveCharts.Defaults;
-using LiveCharts.Wpf;
+using FChart;
+using FChart.Configurations;
+using FChart.Defaults;
+using FChart.Wpf;
 
 namespace Winforms.Cartesian.LogarithmScale
 {

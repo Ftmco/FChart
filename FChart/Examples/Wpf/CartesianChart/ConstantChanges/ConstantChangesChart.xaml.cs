@@ -4,8 +4,8 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using LiveCharts;
-using LiveCharts.Configurations;
+using FChart;
+using FChart.Configurations;
 
 namespace Wpf.CartesianChart.ConstantChanges
 {
@@ -22,9 +22,9 @@ namespace Wpf.CartesianChart.ConstantChanges
             //To handle live data easily, in this case we built a specialized type
             //the MeasureModel class, it only contains 2 properties
             //DateTime and Value
-            //We need to configure LiveCharts to handle MeasureModel class
+            //We need to configure FChart to handle MeasureModel class
             //The next code configures MeasureModel  globally, this means
-            //that LiveCharts learns to plot MeasureModel and will use this config every time
+            //that FChart learns to plot MeasureModel and will use this config every time
             //a IChartValues instance uses this type.
             //this code ideally should only run once
             //you can configure series in many ways, learn more at 

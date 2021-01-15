@@ -1,4 +1,4 @@
-namespace LiveCharts
+namespace FChart
 {
     /// <summary>
     /// 

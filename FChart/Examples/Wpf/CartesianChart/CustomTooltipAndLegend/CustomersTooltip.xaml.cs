@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
-using LiveCharts;
-using LiveCharts.Wpf;
+using FChart;
+using FChart.Wpf;
 
 namespace Wpf.CartesianChart.CustomTooltipAndLegend
 {
@@ -12,7 +12,7 @@ namespace Wpf.CartesianChart.CustomTooltipAndLegend
         {
             InitializeComponent();
 
-            //LiveCharts will inject the tooltip data in the Data property
+            //FChart will inject the tooltip data in the Data property
             //your job is only to display this data as required
                        
             DataContext = this;

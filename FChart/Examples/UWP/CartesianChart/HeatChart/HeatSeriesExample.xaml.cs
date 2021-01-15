@@ -1,5 +1,5 @@
-﻿using LiveCharts;
-using LiveCharts.Defaults;
+﻿using FChart;
+using FChart.Defaults;
 using System;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;

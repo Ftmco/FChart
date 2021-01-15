@@ -23,9 +23,9 @@
 using System;
 using System.Globalization;
 using System.Linq;
-using LiveCharts.Helpers;
+using FChart.Helpers;
 
-namespace LiveCharts.Uwp.Converters
+namespace FChart.Uwp.Converters
 {
     //public class StringCollectionConverter : TypeConverter
     //{

@@ -1,6 +1,6 @@
 ﻿//The MIT License(MIT)
 
-//Copyright(c) 2016 Alberto Rodriguez & LiveCharts Contributors
+//Copyright(c) 2016 Alberto Rodriguez & FChart Contributors
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -29,14 +29,14 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Media;
-using LiveCharts.Defaults;
-using LiveCharts.Definitions.Points;
-using LiveCharts.Definitions.Series;
-using LiveCharts.Helpers;
-using LiveCharts.Uwp.Charts.Base;
-using LiveCharts.Uwp.Components;
+using FChart.Defaults;
+using FChart.Definitions.Points;
+using FChart.Definitions.Series;
+using FChart.Helpers;
+using FChart.Uwp.Charts.Base;
+using FChart.Uwp.Components;
 
-namespace LiveCharts.Uwp
+namespace FChart.Uwp
 {
     /// <summary>
     /// Base WPF and WinForms series, this class is abstract
@@ -567,7 +567,7 @@ namespace LiveCharts.Uwp
         private static IChartValues GetValuesForDesigner()
         {
             var r = new Random();
-            var gvt = Type.GetType("LiveCharts.Geared.GearedValues`1, LiveCharts.Geared");
+            var gvt = Type.GetType("FChart.Geared.GearedValues`1, FChart.Geared");
             gvt = gvt?.MakeGenericType(typeof(ObservableValue));
 
             var obj = gvt != null

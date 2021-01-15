@@ -1,6 +1,6 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:lvc="clr-namespace:LiveCharts.Wpf">
+                    xmlns:lvc="clr-namespace:FChart.Wpf">
 
     <lvc:ColorsCollection x:Key="ColorsCollection">
         <Color A="255" R="13" G="71" B="161" />

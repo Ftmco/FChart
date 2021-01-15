@@ -1,6 +1,6 @@
 ﻿//The MIT License(MIT)
 
-//Copyright(c) 2016 Alberto Rodriguez & LiveCharts Contributors
+//Copyright(c) 2016 Alberto Rodriguez & FChart Contributors
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -28,16 +28,16 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Shapes;
-using LiveCharts.Definitions.Points;
-using LiveCharts.Definitions.Series;
-using LiveCharts.Dtos;
-using LiveCharts.Helpers;
-using LiveCharts.SeriesAlgorithms;
-using LiveCharts.Uwp.Charts.Base;
-using LiveCharts.Uwp.Components;
-using LiveCharts.Uwp.Points;
+using FChart.Definitions.Points;
+using FChart.Definitions.Series;
+using FChart.Dtos;
+using FChart.Helpers;
+using FChart.SeriesAlgorithms;
+using FChart.Uwp.Charts.Base;
+using FChart.Uwp.Components;
+using FChart.Uwp.Points;
 
-namespace LiveCharts.Uwp
+namespace FChart.Uwp
 {
     /// <summary>
     /// The line series displays trends between points, you must add this series to a cartesian chart. 

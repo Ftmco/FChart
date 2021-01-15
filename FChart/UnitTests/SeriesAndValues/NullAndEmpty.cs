@@ -1,5 +1,5 @@
-﻿using LiveCharts;
-using LiveCharts.Dtos;
+﻿using FChart;
+using FChart.Dtos;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTests.SeriesAndValues
@@ -11,7 +11,7 @@ namespace UnitTests.SeriesAndValues
         public void NullSeries()
         {         
             //WPF and WinForms
-            //var theTestGuy = new LiveCharts.Wpf.CartesianChart
+            //var theTestGuy = new FChart.Wpf.CartesianChart
             //{
             //    Series =  null
             //};
@@ -23,7 +23,7 @@ namespace UnitTests.SeriesAndValues
         public void EmptySeries()
         {
             //WPF and WinForms
-            //var theTestGuy = new LiveCharts.Wpf.CartesianChart
+            //var theTestGuy = new FChart.Wpf.CartesianChart
             //{
             //    Series = new SeriesCollection()
             //};
@@ -35,55 +35,55 @@ namespace UnitTests.SeriesAndValues
         public void NullValues()
         {
             //WPF and WinForms
-            //var theTestGuy = new LiveCharts.Wpf.CartesianChart
+            //var theTestGuy = new FChart.Wpf.CartesianChart
             //{
             //    Series = new SeriesCollection
             //    {
-            //        new LiveCharts.Wpf.LineSeries
+            //        new FChart.Wpf.LineSeries
             //        {
             //            Values = null
             //        },
-            //        new LiveCharts.Wpf.VerticalLineSeries
+            //        new FChart.Wpf.VerticalLineSeries
             //        {
             //            Values = null
             //        },
-            //        new LiveCharts.Wpf.ColumnSeries
+            //        new FChart.Wpf.ColumnSeries
             //        {
             //            Values = null
             //        },
-            //        new LiveCharts.Wpf.RowSeries
+            //        new FChart.Wpf.RowSeries
             //        {
             //            Values = null
             //        },
-            //        new LiveCharts.Wpf.StackedAreaSeries
+            //        new FChart.Wpf.StackedAreaSeries
             //        {
             //            Values = null
             //        },
-            //        new LiveCharts.Wpf.VerticalStackedAreaSeries
+            //        new FChart.Wpf.VerticalStackedAreaSeries
             //        {
             //            Values = null
             //        },
-            //        new LiveCharts.Wpf.StackedRowSeries
+            //        new FChart.Wpf.StackedRowSeries
             //        {
             //            Values = null
             //        },
-            //        new LiveCharts.Wpf.StackedRowSeries
+            //        new FChart.Wpf.StackedRowSeries
             //        {
             //            Values = null
             //        },
-            //        new LiveCharts.Wpf.StackedColumnSeries
+            //        new FChart.Wpf.StackedColumnSeries
             //        {
             //            Values = null
             //        },
-            //        new LiveCharts.Wpf.StackedRowSeries
+            //        new FChart.Wpf.StackedRowSeries
             //        {
             //            Values = null
             //        },
-            //        new LiveCharts.Wpf.OhlcSeries
+            //        new FChart.Wpf.OhlcSeries
             //        {
             //            Values = null
             //        },
-            //        new LiveCharts.Wpf.ScatterSeries
+            //        new FChart.Wpf.ScatterSeries
             //        {
             //            Values = null
             //        }
@@ -98,55 +98,55 @@ namespace UnitTests.SeriesAndValues
         public void EmptyValues()
         {
             //WPF and WinForms
-            //var theTestGuy = new LiveCharts.Wpf.CartesianChart
+            //var theTestGuy = new FChart.Wpf.CartesianChart
             //{
             //    Series = new SeriesCollection
             //    {
-            //        new LiveCharts.Wpf.LineSeries
+            //        new FChart.Wpf.LineSeries
             //        {
             //            Values = new ChartValues<double>()
             //        },
-            //        new LiveCharts.Wpf.VerticalLineSeries
+            //        new FChart.Wpf.VerticalLineSeries
             //        {
             //            Values = new ChartValues<double>()
             //        },
-            //        new LiveCharts.Wpf.ColumnSeries
+            //        new FChart.Wpf.ColumnSeries
             //        {
             //            Values = new ChartValues<double>()
             //        },
-            //        new LiveCharts.Wpf.RowSeries
+            //        new FChart.Wpf.RowSeries
             //        {
             //            Values = new ChartValues<double>()
             //        },
-            //        new LiveCharts.Wpf.StackedAreaSeries
+            //        new FChart.Wpf.StackedAreaSeries
             //        {
             //            Values = new ChartValues<double>()
             //        },
-            //        new LiveCharts.Wpf.VerticalStackedAreaSeries
+            //        new FChart.Wpf.VerticalStackedAreaSeries
             //        {
             //            Values = new ChartValues<double>()
             //        },
-            //        new LiveCharts.Wpf.StackedRowSeries
+            //        new FChart.Wpf.StackedRowSeries
             //        {
             //            Values = new ChartValues<double>()
             //        },
-            //        new LiveCharts.Wpf.StackedRowSeries
+            //        new FChart.Wpf.StackedRowSeries
             //        {
             //            Values = new ChartValues<double>()
             //        },
-            //        new LiveCharts.Wpf.StackedColumnSeries
+            //        new FChart.Wpf.StackedColumnSeries
             //        {
             //            Values = new ChartValues<double>()
             //        },
-            //        new LiveCharts.Wpf.StackedRowSeries
+            //        new FChart.Wpf.StackedRowSeries
             //        {
             //            Values = new ChartValues<double>()
             //        },
-            //        new LiveCharts.Wpf.OhlcSeries
+            //        new FChart.Wpf.OhlcSeries
             //        {
             //            Values = new ChartValues<double>()
             //        },
-            //        new LiveCharts.Wpf.ScatterSeries
+            //        new FChart.Wpf.ScatterSeries
             //        {
             //            Values = new ChartValues<double>()
             //        }

@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Windows.Controls;
 using System.Windows.Media;
-using LiveCharts;
-using LiveCharts.Wpf;
+using FChart;
+using FChart.Wpf;
 
 namespace Wpf.CartesianChart.PointShapeLine
 {

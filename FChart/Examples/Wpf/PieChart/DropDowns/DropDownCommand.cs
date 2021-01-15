@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Windows.Input;
-using LiveCharts;
+using FChart;
 
 namespace Wpf.PieChart.DropDowns
 {

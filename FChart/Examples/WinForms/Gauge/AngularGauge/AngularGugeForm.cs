@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Forms;
 using System.Windows.Media;
-using LiveCharts.Wpf;
+using FChart.Wpf;
 using Brushes = System.Windows.Media.Brushes;
 
 namespace Winforms.Gauge.AngularGauge

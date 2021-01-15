@@ -1,6 +1,6 @@
 ﻿//The MIT License(MIT)
 
-//Copyright(c) 2016 Alberto Rodriguez & LiveCharts Contributors
+//Copyright(c) 2016 Alberto Rodriguez & FChart Contributors
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -20,18 +20,18 @@
 //OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //SOFTWARE.
 
-using LiveCharts.Defaults;
-using LiveCharts.Definitions.Points;
-using LiveCharts.Definitions.Series;
-using LiveCharts.Dtos;
+using FChart.Defaults;
+using FChart.Definitions.Points;
+using FChart.Definitions.Series;
+using FChart.Dtos;
 
-namespace LiveCharts.SeriesAlgorithms
+namespace FChart.SeriesAlgorithms
 {
     /// <summary>
     /// 
     /// </summary>
-    /// <seealso cref="LiveCharts.SeriesAlgorithm" />
-    /// <seealso cref="LiveCharts.Definitions.Series.ICartesianSeries" />
+    /// <seealso cref="FChart.SeriesAlgorithm" />
+    /// <seealso cref="FChart.Definitions.Series.ICartesianSeries" />
     public class ScatterAlgorithm : SeriesAlgorithm, ICartesianSeries
     {
         /// <summary>

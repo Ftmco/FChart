@@ -5,7 +5,7 @@
     xmlns:local="using:UWP.CartesianChart.HeatChart"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:lvc="using:LiveCharts.Uwp"
+    xmlns:lvc="using:FChart.Uwp"
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
@@ -21,7 +21,7 @@
 
                     <!--
                     The GradientStopCollection is optional to define a custom gradient
-                    If this property is not specified, LiveCharts will set a gradient
+                    If this property is not specified, FChart will set a gradient
                     -->
 
                     <lvc:HeatSeries.GradientStopCollection>

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Windows.Forms;
 using System.Windows.Media;
-using LiveCharts;
-using LiveCharts.Defaults;
-using LiveCharts.Wpf;
+using FChart;
+using FChart.Defaults;
+using FChart.Wpf;
 
 namespace Winforms.Cartesian.HeatSeriesExample
 {
@@ -65,7 +65,7 @@ namespace Winforms.Cartesian.HeatSeriesExample
                 DataLabels = true,
 
                 //The GradientStopCollection is optional
-                //If you do not set this property, LiveCharts will set a gradient
+                //If you do not set this property, FChart will set a gradient
                 GradientStopCollection = new GradientStopCollection
                 {
                     new GradientStop(Color.FromRgb(0, 0, 0), 0),

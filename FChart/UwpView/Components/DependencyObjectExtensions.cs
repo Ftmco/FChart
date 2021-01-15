@@ -1,6 +1,6 @@
 ﻿using Windows.UI.Xaml;
 
-namespace LiveCharts.Uwp.Components
+namespace FChart.Uwp.Components
 {
     /// <summary>
     /// 

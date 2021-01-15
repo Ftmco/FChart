@@ -1,6 +1,6 @@
 ﻿//The MIT License(MIT)
 
-//Copyright(c) 2016 Alberto Rodriguez & LiveCharts Contributors
+//Copyright(c) 2016 Alberto Rodriguez & FChart Contributors
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -28,11 +28,11 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Shapes;
-using LiveCharts.Definitions.Series;
-using LiveCharts.SeriesAlgorithms;
-using LiveCharts.Uwp.Components;
+using FChart.Definitions.Series;
+using FChart.SeriesAlgorithms;
+using FChart.Uwp.Components;
 
-namespace LiveCharts.Uwp
+namespace FChart.Uwp
 {
     /// <summary>
     /// The stacked area compares trends and percentage, add this series to a cartesian chart

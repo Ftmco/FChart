@@ -1,11 +1,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
-using LiveCharts.Definitions.Series;
-using LiveCharts.Dtos;
-using LiveCharts.Wpf.Charts.Base;
+using FChart.Definitions.Series;
+using FChart.Dtos;
+using FChart.Wpf.Charts.Base;
 
-namespace LiveCharts.Wpf
+namespace FChart.Wpf
 {
     /// <summary>
     /// 

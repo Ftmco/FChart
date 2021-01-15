@@ -5,7 +5,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Markup;
 using Microsoft.Xaml.Interactivity;
 
-namespace LiveCharts.Uwp.Components.MultiBinding
+namespace FChart.Uwp.Components.MultiBinding
 {
     /// <summary>
     /// The behavior that enables multiple binding.

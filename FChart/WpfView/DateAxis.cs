@@ -1,6 +1,6 @@
 ﻿//The MIT License(MIT)
 
-//Copyright(c) 2016 Alberto Rodriguez & LiveCharts Contributors
+//Copyright(c) 2016 Alberto Rodriguez & FChart Contributors
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -23,17 +23,17 @@
 using System;
 using System.Linq;
 using System.Windows;
-using LiveCharts.Charts;
-using LiveCharts.Definitions.Charts;
-using LiveCharts.Helpers;
+using FChart.Charts;
+using FChart.Definitions.Charts;
+using FChart.Helpers;
 
-namespace LiveCharts.Wpf
+namespace FChart.Wpf
 {
     /// <summary>
     /// 
     /// </summary>
-    /// <seealso cref="LiveCharts.Wpf.WindowAxis" />
-    /// <seealso cref="LiveCharts.Definitions.Charts.IDateAxisView" />
+    /// <seealso cref="FChart.Wpf.WindowAxis" />
+    /// <seealso cref="FChart.Definitions.Charts.IDateAxisView" />
     public class DateAxis : WindowAxis, IDateAxisView
     {
         #region Constructors

@@ -1,6 +1,6 @@
 ﻿//The MIT License(MIT)
 
-//Copyright(c) 2016 Alberto Rodriguez & LiveCharts Contributors
+//Copyright(c) 2016 Alberto Rodriguez & FChart Contributors
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -25,10 +25,10 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Media.Animation;
-using LiveCharts.Charts;
-using LiveCharts.Definitions.Points;
+using FChart.Charts;
+using FChart.Definitions.Points;
 
-namespace LiveCharts.Wpf.Points
+namespace FChart.Wpf.Points
 {
     internal class PiePointView : PointView, IPieSlicePointView
     {

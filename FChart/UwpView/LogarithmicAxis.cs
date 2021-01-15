@@ -20,10 +20,10 @@
 
 using System.Linq;
 using Windows.UI.Xaml;
-using LiveCharts.Charts;
-using LiveCharts.Definitions.Charts;
+using FChart.Charts;
+using FChart.Definitions.Charts;
 
-namespace LiveCharts.Uwp
+namespace FChart.Uwp
 {
     /// <summary>
     /// An Logarithmic Axis of a chart

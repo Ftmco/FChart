@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Windows.Controls;
 using System.Windows.Input;
-using LiveCharts;
-using LiveCharts.Events;
-using LiveCharts.Wpf;
+using FChart;
+using FChart.Events;
+using FChart.Wpf;
 
 namespace Wpf.CartesianChart.Events
 {

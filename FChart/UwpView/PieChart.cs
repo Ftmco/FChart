@@ -1,6 +1,6 @@
 ﻿//The MIT License(MIT)
 
-//Copyright(c) 2016 Alberto Rodriguez & LiveCharts Contributors
+//Copyright(c) 2016 Alberto Rodriguez & FChart Contributors
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -23,13 +23,13 @@
 using System;
 using Windows.Foundation;
 using Windows.UI.Xaml;
-using LiveCharts.Charts;
-using LiveCharts.Definitions.Charts;
-using LiveCharts.Uwp.Charts.Base;
-using LiveCharts.Uwp.Points;
-using LiveCharts.Uwp.Components;
+using FChart.Charts;
+using FChart.Definitions.Charts;
+using FChart.Uwp.Charts.Base;
+using FChart.Uwp.Points;
+using FChart.Uwp.Components;
 
-namespace LiveCharts.Uwp
+namespace FChart.Uwp
 {
     /// <summary>
     /// The pie chart compares mainly the distribution of the data according to different series.

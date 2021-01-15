@@ -5,9 +5,9 @@
     xmlns:local="using:UWP.CartesianChart.DynamicVisibility"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:lvc="using:LiveCharts.Uwp"
+    xmlns:lvc="using:FChart.Uwp"
     xmlns:converters="using:UWP.Converters"
-    xmlns:lvcConverters="using:LiveCharts.Uwp.Converters"
+    xmlns:lvcConverters="using:FChart.Uwp.Converters"
     mc:Ignorable="d">
     <UserControl.Resources>
         <converters:BoolToObjectConverter x:Key="bvc">

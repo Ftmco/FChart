@@ -1,6 +1,6 @@
 ﻿//The MIT License(MIT)
 
-//Copyright(c) 2016 Alberto Rodriguez & LiveCharts Contributors
+//Copyright(c) 2016 Alberto Rodriguez & FChart Contributors
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -23,11 +23,11 @@
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Animation;
-using LiveCharts.Charts;
+using FChart.Charts;
 using Windows.Foundation;
-using LiveCharts.Uwp.Components;
+using FChart.Uwp.Components;
 
-namespace LiveCharts.Uwp.Points
+namespace FChart.Uwp.Points
 {
     internal class VerticalBezierPointView : HorizontalBezierPointView
     {

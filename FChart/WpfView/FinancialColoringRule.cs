@@ -1,6 +1,6 @@
 ﻿using System.Windows.Media;
 
-namespace LiveCharts.Wpf
+namespace FChart.Wpf
 {
     /// <summary>
     /// Defines a condition that decides the fill and stroke to use in a CandleStick series

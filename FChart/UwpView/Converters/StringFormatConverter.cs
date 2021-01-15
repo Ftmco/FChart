@@ -2,7 +2,7 @@
 using System.Globalization;
 using Windows.UI.Xaml.Data;
 
-namespace LiveCharts.Uwp.Converters
+namespace FChart.Uwp.Converters
 {
     /// <summary>
     /// 

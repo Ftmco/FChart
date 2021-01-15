@@ -1,8 +1,8 @@
 ﻿using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Input;
-using LiveCharts;
-using LiveCharts.Uwp;
+using FChart;
+using FChart.Uwp;
 
 namespace UWP.CartesianChart.Energy_Predictions
 {

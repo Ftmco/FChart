@@ -1,6 +1,6 @@
 //The MIT License(MIT)
 
-//Copyright(c) 2016 Alberto Rodriguez & LiveCharts Contributors
+//Copyright(c) 2016 Alberto Rodriguez & FChart Contributors
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -25,17 +25,17 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Media;
-using LiveCharts.Charts;
-using LiveCharts.Definitions.Charts;
-using LiveCharts.Wpf.Components;
+using FChart.Charts;
+using FChart.Definitions.Charts;
+using FChart.Wpf.Components;
 
-namespace LiveCharts.Wpf
+namespace FChart.Wpf
 {
     /// <summary>
     /// 
     /// </summary>
-    /// <seealso cref="LiveCharts.Wpf.Axis" />
-    /// <seealso cref="LiveCharts.Definitions.Charts.IWindowAxisView" />
+    /// <seealso cref="FChart.Wpf.Axis" />
+    /// <seealso cref="FChart.Definitions.Charts.IWindowAxisView" />
     public class WindowAxis : Axis, IWindowAxisView
     {
         public static readonly DependencyProperty WindowsProperty = DependencyProperty.Register("Windows", typeof(AxisWindowCollection), typeof(WindowAxis),new PropertyMetadata(default(AxisWindowCollection)));

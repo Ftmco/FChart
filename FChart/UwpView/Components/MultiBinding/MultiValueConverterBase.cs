@@ -3,7 +3,7 @@ using System.Globalization;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Data;
 
-namespace LiveCharts.Uwp.Components.MultiBinding
+namespace FChart.Uwp.Components.MultiBinding
 {
     /// <summary>
     /// An <see cref="IValueConverter"/> abstract implementation to be used with the <see cref="MultiBindingBehavior"/>.

@@ -1,6 +1,6 @@
 //The MIT License(MIT)
 
-//Copyright(c) 2016 Alberto Rodriguez & LiveCharts Contributors
+//Copyright(c) 2016 Alberto Rodriguez & FChart Contributors
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -24,16 +24,16 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
-using LiveCharts.Charts;
-using LiveCharts.Configurations;
-using LiveCharts.Definitions.Series;
-using LiveCharts.Dtos;
-using LiveCharts.Helpers;
+using FChart.Charts;
+using FChart.Configurations;
+using FChart.Definitions.Series;
+using FChart.Dtos;
+using FChart.Helpers;
 #if NET45
 using System.Reflection;
 #endif
 
-namespace LiveCharts
+namespace FChart
 {
     /// <summary>
     /// Creates a collection of chart values
@@ -287,7 +287,7 @@ namespace LiveCharts
         {
             //Trying to get the user defined configuration...
 
-            //series == null means that chart values are null, and LiveCharts
+            //series == null means that chart values are null, and FChart
             //could not set the Series Instance tho the current chart values...
             if (view == null || view.Model.SeriesCollection == null) return null;
 

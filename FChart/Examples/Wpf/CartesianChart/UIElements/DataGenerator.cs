@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using LiveCharts.Defaults;
+using FChart.Defaults;
 
 namespace Wpf.CartesianChart.UIElements
 {

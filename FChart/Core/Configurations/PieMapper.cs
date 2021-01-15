@@ -1,6 +1,6 @@
 using System;
 
-namespace LiveCharts.Configurations
+namespace FChart.Configurations
 {
     /// <summary>
     /// Mapper to configure X and Y points

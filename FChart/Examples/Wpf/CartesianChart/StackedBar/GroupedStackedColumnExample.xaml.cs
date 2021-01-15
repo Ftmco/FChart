@@ -1,6 +1,6 @@
-﻿using LiveCharts;
-using LiveCharts.Defaults;
-using LiveCharts.Wpf;
+﻿using FChart;
+using FChart.Defaults;
+using FChart.Wpf;
 using System;
 using System.Collections.Generic;
 using System.Linq;

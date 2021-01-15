@@ -3,7 +3,7 @@ using System.Windows;
 using System.Windows.Media;
 using System.Windows.Shapes;
 
-namespace LiveCharts.Wpf.Points
+namespace FChart.Wpf.Points
 {
     //special thanks to Colin Eberhardt for the article.
     //http://www.codeproject.com/Articles/28098/A-WPF-Pie-Chart-with-Data-Binding-Support

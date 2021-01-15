@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 using Windows.UI.Xaml.Data;
-using LiveCharts;
+using FChart;
 
 namespace UWP.CartesianChart.Energy_Predictions
 {

@@ -1,6 +1,6 @@
 ﻿//The MIT License(MIT)
 
-//Copyright(c) 2016 Alberto Rodriguez & LiveCharts Contributors
+//Copyright(c) 2016 Alberto Rodriguez & FChart Contributors
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -28,7 +28,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 
-namespace LiveCharts.Wpf
+namespace FChart.Wpf
 {
     /// <summary>
     /// The default legend control, by default a new instance of this control is created for every chart that requires a legend.
@@ -71,7 +71,7 @@ namespace LiveCharts.Wpf
         public static readonly DependencyProperty OrientationProperty = DependencyProperty.Register(
             "Orientation", typeof (Orientation?), typeof (DefaultLegend), new PropertyMetadata(null));
         /// <summary>
-        /// Gets or sets the orientation of the legend, default is null, if null LiveCharts will decide which orientation to use, based on the Chart.Legend location property.
+        /// Gets or sets the orientation of the legend, default is null, if null FChart will decide which orientation to use, based on the Chart.Legend location property.
         /// </summary>
         public Orientation? Orientation
         {

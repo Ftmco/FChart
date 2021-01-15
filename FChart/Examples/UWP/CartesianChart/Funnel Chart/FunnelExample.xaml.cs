@@ -1,5 +1,5 @@
 ﻿using Windows.UI.Xaml.Controls;
-using LiveCharts;
+using FChart;
 
 namespace UWP.CartesianChart.Funnel_Chart
 {

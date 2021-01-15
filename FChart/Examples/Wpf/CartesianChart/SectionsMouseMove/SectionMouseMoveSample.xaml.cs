@@ -1,8 +1,8 @@
 ﻿using System.Windows.Controls;
 using System.Windows.Input;
-using LiveCharts;
-using LiveCharts.Helpers;
-using LiveCharts.Wpf;
+using FChart;
+using FChart.Helpers;
+using FChart.Wpf;
 
 namespace Wpf.CartesianChart.SectionsMouseMove
 {
@@ -19,7 +19,7 @@ namespace Wpf.CartesianChart.SectionsMouseMove
 	    private void UIElement_OnMouseMove(object sender, MouseEventArgs e)
 	    {
 	        var vm = (ViewModel) DataContext;
-	        var chart = (LiveCharts.Wpf.CartesianChart) sender;
+	        var chart = (FChart.Wpf.CartesianChart) sender;
 
             //lets get where the mouse is at our chart
 	        var mouseCoordinate = e.GetPosition(chart);

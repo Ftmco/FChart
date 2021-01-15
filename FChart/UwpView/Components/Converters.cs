@@ -25,7 +25,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Windows.UI.Xaml.Data;
 
-namespace LiveCharts.Uwp.Components
+namespace FChart.Uwp.Components
 {
     internal class SerieConverter : IValueConverter
     {

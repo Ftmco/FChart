@@ -1,6 +1,6 @@
 ﻿using Windows.Foundation;
 
-namespace LiveCharts.Uwp.Points
+namespace FChart.Uwp.Points
 {
     /// <summary>
     /// 

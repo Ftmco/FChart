@@ -1,9 +1,9 @@
 using System.Linq;
 using Windows.Foundation;
-using LiveCharts.Dtos;
-using LiveCharts.Uwp.Charts.Base;
+using FChart.Dtos;
+using FChart.Uwp.Charts.Base;
 
-namespace LiveCharts.Uwp
+namespace FChart.Uwp
 {
     /// <summary>
     /// 

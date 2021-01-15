@@ -1,5 +1,5 @@
-﻿using LiveCharts;
-using LiveCharts.Configurations;
+﻿using FChart;
+using FChart.Configurations;
 using Windows.UI.Xaml.Controls;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
@@ -56,7 +56,7 @@ namespace UWP.CartesianChart.CustomTooltipAndLegend
 
             Labels = new[] { "Irvin", "Malcolm", "Anne", "Vivian", "Caleb" };
 
-            //let create a mapper so LiveCharts know how to plot our CustomerViewModel class
+            //let create a mapper so FChart know how to plot our CustomerViewModel class
             var customerVmMapper = Mappers.Xy<CustomerVm>()
                 .X((value, index) => index) // lets use the position of the item as X
                 .Y(value => value.PurchasedItems); //and PurchasedItems property as Y

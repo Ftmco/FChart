@@ -1,6 +1,6 @@
 ﻿using System.Windows.Controls;
-using LiveCharts;
-using LiveCharts.Wpf;
+using FChart;
+using FChart.Wpf;
 
 namespace Wpf.CartesianChart.Missing_Line_Points
 {

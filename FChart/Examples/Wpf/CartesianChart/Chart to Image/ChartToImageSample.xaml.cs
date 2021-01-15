@@ -3,8 +3,8 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using LiveCharts;
-using LiveCharts.Wpf;
+using FChart;
+using FChart.Wpf;
 
 namespace Wpf.CartesianChart.Chart_to_Image
 {
@@ -20,7 +20,7 @@ namespace Wpf.CartesianChart.Chart_to_Image
 
         private void BuildPngOnClick(object sender, RoutedEventArgs e)
         {
-            var myChart = new LiveCharts.Wpf.CartesianChart
+            var myChart = new FChart.Wpf.CartesianChart
             {
                 DisableAnimations = true,
                 Width = 600,

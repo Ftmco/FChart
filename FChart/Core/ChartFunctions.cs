@@ -23,11 +23,11 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using LiveCharts.Charts;
-using LiveCharts.Definitions.Charts;
-using LiveCharts.Dtos;
+using FChart.Charts;
+using FChart.Definitions.Charts;
+using FChart.Dtos;
 
-namespace LiveCharts
+namespace FChart
 {
     /// <summary>
     /// Contains useful methods to apply to a chart

@@ -1,4 +1,4 @@
-﻿using LiveCharts;
+﻿using FChart;
 using System;
 using System.Collections.Generic;
 using System.IO;

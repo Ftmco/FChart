@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Windows.Media;
 using System.Windows.Forms;
-using LiveCharts;
-using LiveCharts.Events;
-using LiveCharts.Wpf;
+using FChart;
+using FChart.Events;
+using FChart.Wpf;
 
 namespace Winforms.Cartesian.Events
 {

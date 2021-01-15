@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pieChart1 = new LiveCharts.WinForms.PieChart();
+            this.pieChart1 = new FChart.WinForms.PieChart();
             this.SuspendLayout();
             // 
             // pieChart1
@@ -55,6 +55,6 @@
 
         #endregion
 
-        private LiveCharts.WinForms.PieChart pieChart1;
+        private FChart.WinForms.PieChart pieChart1;
     }
 }

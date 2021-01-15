@@ -24,9 +24,9 @@ using System;
 using System.ComponentModel;
 using System.Globalization;
 using System.Linq;
-using LiveCharts.Helpers;
+using FChart.Helpers;
 
-namespace LiveCharts.Wpf.Converters
+namespace FChart.Wpf.Converters
 {
     /// <summary>
     /// 

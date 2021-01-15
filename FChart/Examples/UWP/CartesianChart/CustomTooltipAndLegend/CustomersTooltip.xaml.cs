@@ -1,5 +1,5 @@
-﻿using LiveCharts;
-using LiveCharts.Uwp;
+﻿using FChart;
+using FChart.Uwp;
 using System.ComponentModel;
 using Windows.UI.Xaml.Controls;
 
@@ -15,7 +15,7 @@ namespace UWP.CartesianChart.CustomTooltipAndLegend
         {
             InitializeComponent();
 
-            //LiveCharts will inject the tooltip data in the Data property
+            //FChart will inject the tooltip data in the Data property
             //your job is only to display this data as required
 
             DataContext = this;

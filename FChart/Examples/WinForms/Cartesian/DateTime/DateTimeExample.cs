@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
-using LiveCharts;
-using LiveCharts.Configurations;
-using LiveCharts.Wpf;
+using FChart;
+using FChart.Configurations;
+using FChart.Wpf;
 using Brushes = System.Windows.Media.Brushes;
 
 namespace Winforms.Cartesian.DateTime

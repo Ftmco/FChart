@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("LiveCharts.WinForms")]
+[assembly: AssemblyTitle("FChart.WinForms")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("LiveCharts.WinForms")]
+[assembly: AssemblyProduct("FChart.WinForms")]
 [assembly: AssemblyCopyright("Copyright © 2016 Alberto Rodríguez Orozco")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

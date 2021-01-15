@@ -1,5 +1,5 @@
-﻿using LiveCharts;
-using LiveCharts.Configurations;
+﻿using FChart;
+using FChart.Configurations;
 using System;
 using System.ComponentModel;
 using Windows.UI.Xaml;
@@ -24,7 +24,7 @@ namespace UWP.CartesianChart.ConstantChanges
             //To handle live data easily, in this case we built a specialized type
             //the MeasureModel class, it only contains 2 properties
             //DateTime and Value
-            //We need to configure LiveCharts to handle MeasureModel class
+            //We need to configure FChart to handle MeasureModel class
             //The next code configures MEasureModel  globally, this means
             //that livecharts learns to plot MeasureModel and will use this config every time
             //a ChartValues instance uses this type.

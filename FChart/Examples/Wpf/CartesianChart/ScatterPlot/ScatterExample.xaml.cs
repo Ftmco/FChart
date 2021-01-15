@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Windows;
 using System.Windows.Controls;
-using LiveCharts;
-using LiveCharts.Defaults;
+using FChart;
+using FChart.Defaults;
 
 namespace Wpf.CartesianChart.ScatterPlot
 {

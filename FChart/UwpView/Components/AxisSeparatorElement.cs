@@ -1,6 +1,6 @@
 ﻿//The MIT License(MIT)
 
-//Copyright(c) 2016 Alberto Rodriguez & LiveCharts Contributors
+//Copyright(c) 2016 Alberto Rodriguez & FChart Contributors
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -27,17 +27,17 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Animation;
 using Windows.UI.Xaml.Shapes;
-using LiveCharts.Charts;
-using LiveCharts.Definitions.Charts;
-using LiveCharts.Dtos;
-using LiveCharts.Uwp.Charts.Base;
+using FChart.Charts;
+using FChart.Definitions.Charts;
+using FChart.Dtos;
+using FChart.Uwp.Charts.Base;
 
-namespace LiveCharts.Uwp.Components
+namespace FChart.Uwp.Components
 {
     /// <summary>
     /// 
     /// </summary>
-    /// <seealso cref="LiveCharts.Definitions.Charts.ISeparatorElementView" />
+    /// <seealso cref="FChart.Definitions.Charts.ISeparatorElementView" />
     public class AxisSeparatorElement : ISeparatorElementView
     {
         /// <summary>

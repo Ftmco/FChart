@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.solidGauge1 = new LiveCharts.WinForms.SolidGauge();
-            this.solidGauge2 = new LiveCharts.WinForms.SolidGauge();
-            this.solidGauge3 = new LiveCharts.WinForms.SolidGauge();
-            this.solidGauge4 = new LiveCharts.WinForms.SolidGauge();
-            this.solidGauge5 = new LiveCharts.WinForms.SolidGauge();
-            this.solidGauge6 = new LiveCharts.WinForms.SolidGauge();
+            this.solidGauge1 = new FChart.WinForms.SolidGauge();
+            this.solidGauge2 = new FChart.WinForms.SolidGauge();
+            this.solidGauge3 = new FChart.WinForms.SolidGauge();
+            this.solidGauge4 = new FChart.WinForms.SolidGauge();
+            this.solidGauge5 = new FChart.WinForms.SolidGauge();
+            this.solidGauge6 = new FChart.WinForms.SolidGauge();
             this.SuspendLayout();
             // 
             // solidGauge1
@@ -104,11 +104,11 @@
 
         #endregion
 
-        private LiveCharts.WinForms.SolidGauge solidGauge1;
-        private LiveCharts.WinForms.SolidGauge solidGauge2;
-        private LiveCharts.WinForms.SolidGauge solidGauge3;
-        private LiveCharts.WinForms.SolidGauge solidGauge4;
-        private LiveCharts.WinForms.SolidGauge solidGauge5;
-        private LiveCharts.WinForms.SolidGauge solidGauge6;
+        private FChart.WinForms.SolidGauge solidGauge1;
+        private FChart.WinForms.SolidGauge solidGauge2;
+        private FChart.WinForms.SolidGauge solidGauge3;
+        private FChart.WinForms.SolidGauge solidGauge4;
+        private FChart.WinForms.SolidGauge solidGauge5;
+        private FChart.WinForms.SolidGauge solidGauge6;
     }
 }

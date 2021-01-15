@@ -1,6 +1,6 @@
 using System.Diagnostics;
-using LiveCharts;
-using LiveCharts.Events;
+using FChart;
+using FChart.Events;
 
 namespace UWP.CartesianChart.Events
 {
@@ -18,7 +18,7 @@ namespace UWP.CartesianChart.Events
                 ExecuteDelegate = p => Debug.WriteLine(
                     "[COMMAND] you hovered over " + p.X + ", " + p.Y)
             };
-            UpdaterTickCommand = new MyCommand<LiveCharts.Uwp.CartesianChart>
+            UpdaterTickCommand = new MyCommand<FChart.Uwp.CartesianChart>
             {
                 ExecuteDelegate = c => Debug.WriteLine("[COMMAND] Chart was updated!")
             };
@@ -30,7 +30,7 @@ namespace UWP.CartesianChart.Events
 
         public MyCommand<ChartPoint> DataHoverCommand { get; set; }
         public MyCommand<ChartPoint> DataClickCommand { get; set; }
-        public MyCommand<LiveCharts.Uwp.CartesianChart> UpdaterTickCommand { get; set; }
+        public MyCommand<FChart.Uwp.CartesianChart> UpdaterTickCommand { get; set; }
         public MyCommand<RangeChangedEventArgs> RangeChangedCommand { get; set; }
     }
 }

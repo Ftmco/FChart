@@ -1,6 +1,6 @@
 ﻿//The MIT License(MIT)
 
-//Copyright(c) 2016 Alberto Rodriguez & LiveCharts Contributors
+//Copyright(c) 2016 Alberto Rodriguez & FChart Contributors
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -23,13 +23,13 @@
 using System;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using LiveCharts.Charts;
-using LiveCharts.Definitions.Charts;
-using LiveCharts.Dtos;
-using LiveCharts.Uwp.Charts.Base;
-using LiveCharts.Uwp.Components;
+using FChart.Charts;
+using FChart.Definitions.Charts;
+using FChart.Dtos;
+using FChart.Uwp.Charts.Base;
+using FChart.Uwp.Components;
 
-namespace LiveCharts.Uwp
+namespace FChart.Uwp
 {
     /// <summary>
     /// Defines a visual element, a visual element is a UI element that is placed and scaled in the chart.

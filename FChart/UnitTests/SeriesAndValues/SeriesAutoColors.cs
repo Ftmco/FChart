@@ -1,7 +1,7 @@
 ﻿using System;
-using LiveCharts;
-using LiveCharts.Dtos;
-using LiveCharts.Wpf;
+using FChart;
+using FChart.Dtos;
+using FChart.Wpf;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTests.SeriesAndValues

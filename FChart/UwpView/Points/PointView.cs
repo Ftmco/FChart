@@ -21,11 +21,11 @@
 using System;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Shapes;
-using LiveCharts.Charts;
-using LiveCharts.Definitions.Points;
-using LiveCharts.Dtos;
+using FChart.Charts;
+using FChart.Definitions.Points;
+using FChart.Dtos;
 
-namespace LiveCharts.Uwp.Points
+namespace FChart.Uwp.Points
 {
     internal class PointView : IChartPointView
     {

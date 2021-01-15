@@ -1,4 +1,4 @@
-﻿using LiveCharts.WinForms;
+﻿using FChart.WinForms;
 
 namespace Winforms.Cartesian.Customized_Series
 {
@@ -30,7 +30,7 @@ namespace Winforms.Cartesian.Customized_Series
         /// </summary>
         private void InitializeComponent()
         {
-            this.cartesianChart1 = new LiveCharts.WinForms.CartesianChart();
+            this.cartesianChart1 = new FChart.WinForms.CartesianChart();
             this.SuspendLayout();
             // 
             // cartesianChart1

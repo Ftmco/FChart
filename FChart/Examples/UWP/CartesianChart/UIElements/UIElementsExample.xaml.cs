@@ -1,7 +1,7 @@
-﻿using LiveCharts;
+﻿using FChart;
 using System;
 using Windows.UI.Xaml.Controls;
-using LiveCharts.Uwp;
+using FChart.Uwp;
 using Windows.UI.Popups;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238

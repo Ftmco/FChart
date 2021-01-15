@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
-using LiveCharts;
-using LiveCharts.Defaults;
-using LiveCharts.Wpf;
+using FChart;
+using FChart.Defaults;
+using FChart.Wpf;
 
 namespace Winforms.Cartesian.FullyResponsive
 {

@@ -5,8 +5,8 @@ using Windows.UI.Xaml.Controls;
 
 namespace UWP.CartesianChart.Basic_Stacked_Bar
 {
-    using LiveCharts;
-    using LiveCharts.Uwp;
+    using FChart;
+    using FChart.Uwp;
 
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.

@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Windows;
 using System.Windows.Controls;
-using LiveCharts;
+using FChart;
 using Wpf.Annotations;
 
 namespace Wpf.CartesianChart.ManualZAndP

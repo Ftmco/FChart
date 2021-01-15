@@ -1,6 +1,6 @@
 ﻿//The MIT License(MIT)
 
-//Copyright(c) 2016 Alberto Rodriguez & LiveCharts Contributors
+//Copyright(c) 2016 Alberto Rodriguez & FChart Contributors
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -33,17 +33,17 @@ using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
-using LiveCharts.Charts;
-using LiveCharts.Defaults;
-using LiveCharts.Definitions.Charts;
-using LiveCharts.Definitions.Series;
-using LiveCharts.Dtos;
-using LiveCharts.Events;
-using LiveCharts.Helpers;
-using LiveCharts.Wpf.Components;
-using LiveCharts.Wpf.Points;
+using FChart.Charts;
+using FChart.Defaults;
+using FChart.Definitions.Charts;
+using FChart.Definitions.Series;
+using FChart.Dtos;
+using FChart.Events;
+using FChart.Helpers;
+using FChart.Wpf.Components;
+using FChart.Wpf.Points;
 
-namespace LiveCharts.Wpf.Charts.Base
+namespace FChart.Wpf.Charts.Base
 {
     /// <summary>
     /// Base chart class
@@ -1033,7 +1033,7 @@ namespace LiveCharts.Wpf.Charts.Base
         /// Loads the legend.
         /// </summary>
         /// <returns></returns>
-        /// <exception cref="LiveCharts.Helpers.LiveChartsException">The current legend is not valid, ensure it implements IChartLegend</exception>
+        /// <exception cref="FChart.Helpers.LiveChartsException">The current legend is not valid, ensure it implements IChartLegend</exception>
         public CoreSize LoadLegend()
         {
             if (ChartLegend == null || LegendLocation == LegendLocation.None)
@@ -1135,7 +1135,7 @@ namespace LiveCharts.Wpf.Charts.Base
 
             Func<IChartValues> getValuesForPies = () =>
             {
-                var gvt = Type.GetType("LiveCharts.Geared.GearedValues`1, LiveCharts.Geared");
+                var gvt = Type.GetType("FChart.Geared.GearedValues`1, FChart.Geared");
                 if (gvt != null) gvt = gvt.MakeGenericType(typeof(ObservableValue));
 
                 var obj = gvt != null
@@ -1173,7 +1173,7 @@ namespace LiveCharts.Wpf.Charts.Base
             {
                 Func<IChartValues> getRandomValues = () =>
                 {
-                    var gvt = Type.GetType("LiveCharts.Geared.GearedValues`1, LiveCharts.Geared");
+                    var gvt = Type.GetType("FChart.Geared.GearedValues`1, FChart.Geared");
                     if (gvt != null) gvt = gvt.MakeGenericType(typeof(ObservableValue));
 
                     var obj = gvt != null

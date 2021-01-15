@@ -2,9 +2,9 @@
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
-using LiveCharts;
-using LiveCharts.Configurations;
-using LiveCharts.Defaults;
+using FChart;
+using FChart.Configurations;
+using FChart.Defaults;
 
 namespace Wpf.CartesianChart.PointState
 {

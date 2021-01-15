@@ -4,7 +4,7 @@ using System.Collections.Specialized;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
 
-namespace LiveCharts.Uwp.Components.MultiBinding
+namespace FChart.Uwp.Components.MultiBinding
 {
     /// <summary>
     /// Represents a collection of <see cref="DependencyObject"/> instances of a specified type.

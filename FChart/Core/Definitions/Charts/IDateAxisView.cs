@@ -1,7 +1,7 @@
 using System;
-using LiveCharts.Helpers;
+using FChart.Helpers;
 
-namespace LiveCharts.Definitions.Charts
+namespace FChart.Definitions.Charts
 {
     /// <summary>
     /// 

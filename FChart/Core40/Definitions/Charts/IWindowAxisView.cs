@@ -1,4 +1,4 @@
-namespace LiveCharts.Definitions.Charts
+namespace FChart.Definitions.Charts
 {
     /// <summary>
     /// 

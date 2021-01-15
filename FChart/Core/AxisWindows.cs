@@ -1,6 +1,6 @@
 using System;
 
-namespace LiveCharts
+namespace FChart
 {
     /// <summary>
     /// 

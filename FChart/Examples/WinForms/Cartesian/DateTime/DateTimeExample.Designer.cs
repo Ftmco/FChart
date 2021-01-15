@@ -31,7 +31,7 @@ namespace Winforms.Cartesian.DateTime
         private void InitializeComponent()
         {
             this.BackColor = Color.White;
-            this.cartesianChart1 = new LiveCharts.WinForms.CartesianChart();
+            this.cartesianChart1 = new FChart.WinForms.CartesianChart();
             this.SuspendLayout();
             // 
             // cartesianChart1
@@ -57,6 +57,6 @@ namespace Winforms.Cartesian.DateTime
 
         #endregion
 
-        private LiveCharts.WinForms.CartesianChart cartesianChart1;
+        private FChart.WinForms.CartesianChart cartesianChart1;
     }
 }

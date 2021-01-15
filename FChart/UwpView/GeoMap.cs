@@ -1,6 +1,6 @@
 ﻿//The MIT License(MIT)
 
-//Copyright(c) 2016 Alberto Rodriguez & LiveCharts Contributors
+//Copyright(c) 2016 Alberto Rodriguez & FChart Contributors
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -34,14 +34,14 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Shapes;
-using LiveCharts.Maps;
-using LiveCharts.Uwp.Components;
-using LiveCharts.Uwp.Components.MultiBinding;
-using LiveCharts.Uwp.Maps;
+using FChart.Maps;
+using FChart.Uwp.Components;
+using FChart.Uwp.Components.MultiBinding;
+using FChart.Uwp.Maps;
 using Microsoft.Xaml.Interactivity;
 using Path = Windows.UI.Xaml.Shapes.Path;
 
-namespace LiveCharts.Uwp
+namespace FChart.Uwp
 {
     /// <summary>
     /// 
@@ -625,7 +625,7 @@ namespace LiveCharts.Uwp
     /// <summary>
     /// 
     /// </summary>
-    /// <seealso cref="LiveCharts.Uwp.Components.MultiBinding.MultiValueConverterBase" />
+    /// <seealso cref="FChart.Uwp.Components.MultiBinding.MultiValueConverterBase" />
     public class ScaleStrokeConverter : MultiValueConverterBase
     {
         /// <summary>

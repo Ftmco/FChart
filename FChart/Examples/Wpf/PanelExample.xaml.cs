@@ -6,9 +6,9 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Controls;
 using System.Windows.Threading;
-using LiveCharts;
-using LiveCharts.Defaults;
-using LiveCharts.Wpf;
+using FChart;
+using FChart.Defaults;
+using FChart.Wpf;
 using Wpf.Annotations;
 
 namespace Wpf

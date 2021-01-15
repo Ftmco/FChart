@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
-using LiveCharts.Dtos;
-using LiveCharts.Wpf;
+using FChart.Dtos;
+using FChart.Wpf;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTests.Other

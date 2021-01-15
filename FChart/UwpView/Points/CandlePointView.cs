@@ -1,6 +1,6 @@
 ﻿//The MIT License(MIT)
 
-//Copyright(c) 2016 Alberto Rodriguez & LiveCharts Contributors
+//Copyright(c) 2016 Alberto Rodriguez & FChart Contributors
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -23,11 +23,11 @@
 using System;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Shapes;
-using LiveCharts.Charts;
-using LiveCharts.Definitions.Points;
-using LiveCharts.Uwp.Components;
+using FChart.Charts;
+using FChart.Definitions.Points;
+using FChart.Uwp.Components;
 
-namespace LiveCharts.Uwp.Points
+namespace FChart.Uwp.Points
 {
     internal class CandlePointView : PointView, IOhlcPointView
     {

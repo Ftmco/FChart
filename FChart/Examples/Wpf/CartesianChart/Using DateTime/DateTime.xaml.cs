@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Windows.Controls;
 using System.Windows.Media;
-using LiveCharts;
-using LiveCharts.Configurations;
-using LiveCharts.Wpf;
+using FChart;
+using FChart.Configurations;
+using FChart.Wpf;
 
 namespace Wpf.CartesianChart.Using_DateTime
 {

@@ -2,9 +2,9 @@
 using System.Linq;
 using System.Windows.Forms;
 using System.Windows.Media;
-using LiveCharts;
-using LiveCharts.Defaults;
-using LiveCharts.Wpf;
+using FChart;
+using FChart.Defaults;
+using FChart.Wpf;
 
 namespace Winforms.Cartesian.ScatterExample
 {

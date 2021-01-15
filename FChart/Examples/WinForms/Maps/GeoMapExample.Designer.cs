@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.geoMap1 = new LiveCharts.WinForms.GeoMap();
+            this.geoMap1 = new FChart.WinForms.GeoMap();
             this.SuspendLayout();
             // 
             // geoMap1
@@ -55,6 +55,6 @@
 
         #endregion
 
-        private LiveCharts.WinForms.GeoMap geoMap1;
+        private FChart.WinForms.GeoMap geoMap1;
     }
 }

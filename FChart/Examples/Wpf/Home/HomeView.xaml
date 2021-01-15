@@ -91,7 +91,7 @@
                 <Border Grid.Row="1" Padding="10" Background="#0398E2" Effect="{StaticResource CardShadow}">
                     <TextBlock Foreground="{StaticResource WhiteBrush}" HorizontalAlignment="Center" TextWrapping="Wrap" Style="{StaticResource H5}">
                         <Hyperlink NavigateUri="https://lvcharts.net/licensing/pricing" RequestNavigate="RequestNavigate">
-                            <Bold>Psst!</Bold> Get LiveCharts.Geared and extend LiveCharts to a high performance charting library
+                            <Bold>Psst!</Bold> Get FChart.Geared and extend FChart to a high performance charting library
                         </Hyperlink>
                     </TextBlock>
                 </Border>

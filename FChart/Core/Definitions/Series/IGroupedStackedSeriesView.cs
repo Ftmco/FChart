@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LiveCharts.Definitions.Series
+namespace FChart.Definitions.Series
 {
     /// <summary>
     /// 
     /// </summary>
-    /// <seealso cref="LiveCharts.Definitions.Series.ISeriesView" />
+    /// <seealso cref="FChart.Definitions.Series.ISeriesView" />
     public interface IGroupedStackedSeriesView : ISeriesView
     {
         /// <summary>

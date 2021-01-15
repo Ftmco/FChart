@@ -1,6 +1,6 @@
 ﻿//The MIT License(MIT)
 
-//Copyright(c) 2016 Alberto Rodriguez & LiveCharts Contributors
+//Copyright(c) 2016 Alberto Rodriguez & FChart Contributors
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -23,12 +23,12 @@
 using System;
 using System.Diagnostics;
 using System.Windows.Threading;
-using LiveCharts.Dtos;
-using LiveCharts.Wpf.Charts.Base;
+using FChart.Dtos;
+using FChart.Wpf.Charts.Base;
 
-namespace LiveCharts.Wpf.Components
+namespace FChart.Wpf.Components
 {
-    internal class ChartUpdater : LiveCharts.ChartUpdater
+    internal class ChartUpdater : FChart.ChartUpdater
     {
         public ChartUpdater(TimeSpan frequency)
         {

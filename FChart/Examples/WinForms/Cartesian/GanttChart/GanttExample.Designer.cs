@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.elementHost1 = new System.Windows.Forms.Integration.ElementHost();
-            this.cartesianChart1 = new LiveCharts.Wpf.CartesianChart();
+            this.cartesianChart1 = new FChart.Wpf.CartesianChart();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -69,7 +69,7 @@
         #endregion
 
         private System.Windows.Forms.Integration.ElementHost elementHost1;
-        private LiveCharts.Wpf.CartesianChart cartesianChart1;
+        private FChart.Wpf.CartesianChart cartesianChart1;
         private System.Windows.Forms.Button button1;
     }
 }

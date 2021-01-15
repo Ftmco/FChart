@@ -1,9 +1,9 @@
 ﻿using System.Diagnostics;
 using System.Windows.Media;
 using System.Windows.Navigation;
-using LiveCharts;
-using LiveCharts.Defaults;
-using LiveCharts.Wpf;
+using FChart;
+using FChart.Defaults;
+using FChart.Wpf;
 
 namespace Wpf.CartesianChart
 {

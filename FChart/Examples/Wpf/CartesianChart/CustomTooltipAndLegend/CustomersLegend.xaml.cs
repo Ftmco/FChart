@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel;
 using System.Windows.Controls;
-using LiveCharts.Wpf;
+using FChart.Wpf;
 
 namespace Wpf.CartesianChart.CustomTooltipAndLegend
 {

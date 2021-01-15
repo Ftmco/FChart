@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Forms;
-using LiveCharts;
-using LiveCharts.Wpf;
+using FChart;
+using FChart.Wpf;
 
 namespace Winforms.Cartesian.DynamicVisibility
 {

@@ -26,12 +26,12 @@ using System.Windows.Data;
 using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
-using LiveCharts.Definitions.Charts;
-using LiveCharts.Dtos;
-using LiveCharts.Helpers;
-using LiveCharts.Wpf.Charts.Base;
+using FChart.Definitions.Charts;
+using FChart.Dtos;
+using FChart.Helpers;
+using FChart.Wpf.Charts.Base;
 
-namespace LiveCharts.Wpf
+namespace FChart.Wpf
 {
     /// <summary>
     /// An Axis section highlights values or ranges in a chart.

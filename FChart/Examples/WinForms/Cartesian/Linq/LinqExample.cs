@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
-using LiveCharts;
-using LiveCharts.Configurations;
-using LiveCharts.Helpers;
-using LiveCharts.Wpf;
-using Separator = LiveCharts.Wpf.Separator;
+using FChart;
+using FChart.Configurations;
+using FChart.Helpers;
+using FChart.Wpf;
+using Separator = FChart.Wpf.Separator;
 
 namespace Winforms.Cartesian.Linq
 {

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Windows.Media;
-using LiveCharts;
-using LiveCharts.Helpers;
-using LiveCharts.Wpf;
+using FChart;
+using FChart.Helpers;
+using FChart.Wpf;
 
 namespace Wpf.PieChart.DropDowns
 {

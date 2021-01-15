@@ -4,9 +4,9 @@ using System.ComponentModel;
 using System.Linq;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using LiveCharts;
-using LiveCharts.Defaults;
-using LiveCharts.Uwp;
+using FChart;
+using FChart.Defaults;
+using FChart.Uwp;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 

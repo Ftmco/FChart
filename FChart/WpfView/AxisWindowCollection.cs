@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using LiveCharts.Helpers;
+using FChart.Helpers;
 
-namespace LiveCharts.Wpf
+namespace FChart.Wpf
 {
     /// <summary>
     /// 

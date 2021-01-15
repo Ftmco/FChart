@@ -2,9 +2,9 @@
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Windows.Controls;
-using LiveCharts;
-using LiveCharts.Configurations;
-using LiveCharts.Helpers;
+using FChart;
+using FChart.Configurations;
+using FChart.Helpers;
 
 namespace Wpf.CartesianChart.Linq
 {

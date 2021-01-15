@@ -1,6 +1,6 @@
-﻿using LiveCharts;
-using LiveCharts.Defaults;
-using LiveCharts.Uwp;
+﻿using FChart;
+using FChart.Defaults;
+using FChart.Uwp;
 using System;
 using System.Linq;
 using Windows.UI.Xaml;

@@ -24,12 +24,12 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Shapes;
-using LiveCharts.Definitions.Charts;
-using LiveCharts.Dtos;
-using LiveCharts.Helpers;
-using LiveCharts.Uwp.Components;
+using FChart.Definitions.Charts;
+using FChart.Dtos;
+using FChart.Helpers;
+using FChart.Uwp.Components;
 
-namespace LiveCharts.Uwp
+namespace FChart.Uwp
 {
     /// <summary>
     /// An Axis section highlights values or ranges in a chart.

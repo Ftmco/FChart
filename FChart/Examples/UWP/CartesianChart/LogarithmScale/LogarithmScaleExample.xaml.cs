@@ -1,8 +1,8 @@
-﻿using LiveCharts;
-using LiveCharts.Configurations;
-using LiveCharts.Defaults;
-using LiveCharts.Definitions.Charts;
-using LiveCharts.Uwp;
+﻿using FChart;
+using FChart.Configurations;
+using FChart.Defaults;
+using FChart.Definitions.Charts;
+using FChart.Uwp;
 using System;
 using Windows.UI.Xaml.Controls;
 

@@ -1,6 +1,6 @@
 //The MIT License(MIT)
 
-//Copyright(c) 2016 Alberto Rodriguez & LiveCharts Contributors
+//Copyright(c) 2016 Alberto Rodriguez & FChart Contributors
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -21,14 +21,14 @@
 //SOFTWARE.
 
 using System.Collections.Generic;
-using LiveCharts.Dtos;
+using FChart.Dtos;
 
-namespace LiveCharts.Definitions.Series
+namespace FChart.Definitions.Series
 {
     /// <summary>
     /// 
     /// </summary>
-    /// <seealso cref="LiveCharts.Definitions.Series.ISeriesView" />
+    /// <seealso cref="FChart.Definitions.Series.ISeriesView" />
     public interface IHeatSeriesView : ISeriesView
     {
         /// <summary>

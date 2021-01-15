@@ -1,6 +1,6 @@
 ﻿//The MIT License(MIT)
 
-//Copyright(c) 2016 Alberto Rodriguez & LiveCharts Contributors
+//Copyright(c) 2016 Alberto Rodriguez & FChart Contributors
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -30,16 +30,16 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Shapes;
-using LiveCharts.Definitions.Points;
-using LiveCharts.Definitions.Series;
-using LiveCharts.Dtos;
-using LiveCharts.Helpers;
-using LiveCharts.SeriesAlgorithms;
-using LiveCharts.Uwp.Charts.Base;
-using LiveCharts.Uwp.Points;
-using LiveCharts.Uwp.Components;
+using FChart.Definitions.Points;
+using FChart.Definitions.Series;
+using FChart.Dtos;
+using FChart.Helpers;
+using FChart.SeriesAlgorithms;
+using FChart.Uwp.Charts.Base;
+using FChart.Uwp.Points;
+using FChart.Uwp.Components;
 
-namespace LiveCharts.Uwp
+namespace FChart.Uwp
 {
     /// <summary>
     /// Use a HeatSeries in a cartesian chart to draw heat maps.

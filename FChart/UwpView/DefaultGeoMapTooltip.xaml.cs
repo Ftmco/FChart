@@ -1,6 +1,6 @@
 ﻿//The MIT License(MIT)
 
-//Copyright(c) 2016 Alberto Rodriguez & LiveCharts Contributors
+//Copyright(c) 2016 Alberto Rodriguez & FChart Contributors
 
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -23,10 +23,10 @@
 using System;
 using System.Globalization;
 using Windows.UI.Xaml;
-using LiveCharts.Uwp.Components.MultiBinding;
-using LiveCharts.Uwp.Components;
+using FChart.Uwp.Components.MultiBinding;
+using FChart.Uwp.Components;
 
-namespace LiveCharts.Uwp
+namespace FChart.Uwp
 {
     /// <summary>
     /// 
@@ -126,7 +126,7 @@ namespace LiveCharts.Uwp
     /// <summary>
     /// 
     /// </summary>
-    /// <seealso cref="LiveCharts.Uwp.Components.MultiBinding.MultiValueConverterBase" />
+    /// <seealso cref="FChart.Uwp.Components.MultiBinding.MultiValueConverterBase" />
     public class GeoDataLabelConverter : MultiValueConverterBase
     {
         /// <summary>
